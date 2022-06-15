@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "login-form": {
+      "description": "A blank schematic.",
+      "factory": "./login-form/index#loginForm",
+      "schema": "./login-form/schema.json"
+    }
+  }
+}
